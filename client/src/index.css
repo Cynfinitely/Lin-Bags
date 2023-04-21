@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Victor Mono";
+  src: url("../public/fonts/VictorMono/EOT/VictorMono-Regular.eot");
+  src: url("../public/fonts/VictorMono/EOT/VictorMono-Regular.eot")
+      format("embedded-opentype"),
+    url("../public/fonts/VictorMono/WOFF2/VictorMono-Regular.woff2")
+      format("woff2"),
+    url("../public/fonts/VictorMono/WOFF/VictorMono-Regular.woff")
+      format("woff"),
+    url("../public/fonts/VictorMono/TTF/VictorMono-Regular.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Victor Mono", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Victor Mono",
+    "Courier New", monospace;
+}

@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.btn.btn-primary {
+  background: #F4D15D;
+  border-color: black;
+  color: black;
+}
+.btn.btn-danger {
+  background: #ADE7CF;
+  border-color: black;
+  color: black;
+}
+
+.container {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: radial-gradient(
+    ellipse farthest-corner at 9px 9px,
+    #f7f5ef,
+    #f7f5ef 50%,
+    #e5e5f7 50%
+  );
+  background-size: 9px 9px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100% !important;
+}
+
+span {
+  color: red;
+}
+
+label{
+  background-color: #a8dff5;
+}
+
+form {
+  box-shadow: 5px 5px #000;
+}
